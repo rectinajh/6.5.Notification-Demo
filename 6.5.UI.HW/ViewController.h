@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ViewControllDelegate <NSObject>
+
+- (void)buttonDidPressed:(NSString *)text;
+
+@end
+
 @interface ViewController : UIViewController
 
+@property (assign, nonatomic) id<ViewControllDelegate> delegate;
 
 @end
 

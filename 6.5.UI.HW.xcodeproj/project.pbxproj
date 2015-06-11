@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243D408F1B21ADE700C4A302 /* calllog1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 243D408E1B21ADE700C4A302 /* calllog1@2x.png */; };
+		243D40931B21ADF000C4A302 /* dial1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 243D40921B21ADF000C4A302 /* dial1@3x.png */; };
+		243D40951B21ADF500C4A302 /* setting1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 243D40941B21ADF500C4A302 /* setting1@3x.png */; };
+		243D40971B21AFDC00C4A302 /* calllog2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 243D40961B21AFDC00C4A302 /* calllog2@2x.png */; };
+		243D409A1B21B22200C4A302 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243D40991B21B22200C4A302 /* DetailViewController.m */; };
+		243D409C1B21B2CD00C4A302 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243D409B1B21B2CD00C4A302 /* Images.xcassets */; };
 		245C5D971B21A0C000DA1686 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C5D961B21A0C000DA1686 /* main.m */; };
 		245C5D9A1B21A0C000DA1686 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C5D991B21A0C000DA1686 /* AppDelegate.m */; };
 		245C5D9D1B21A0C000DA1686 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C5D9C1B21A0C000DA1686 /* ViewController.m */; };
 		245C5DA01B21A0C000DA1686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245C5D9E1B21A0C000DA1686 /* Main.storyboard */; };
-		245C5DA21B21A0C000DA1686 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245C5DA11B21A0C000DA1686 /* Images.xcassets */; };
 		245C5DA51B21A0C000DA1686 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 245C5DA31B21A0C000DA1686 /* LaunchScreen.xib */; };
 		245C5DB11B21A0C000DA1686 /* __5_UI_HWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C5DB01B21A0C000DA1686 /* __5_UI_HWTests.m */; };
+		245C5DC81B21A46100DA1686 /* DialllogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C5DC71B21A46100DA1686 /* DialllogViewController.m */; };
+		245C5DCB1B21A48200DA1686 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C5DCA1B21A48200DA1686 /* ContactViewController.m */; };
+		245C5DCE1B21A49900DA1686 /* DialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C5DCD1B21A49900DA1686 /* DialViewController.m */; };
+		245C5DD11B21A4A800DA1686 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C5DD01B21A4A800DA1686 /* SettingViewController.m */; };
+		248D1CCC1B2986F900A8289A /* DialTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 248D1CCA1B2986F900A8289A /* DialTableViewCell.m */; };
+		248D1CCD1B2986F900A8289A /* DialTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248D1CCB1B2986F900A8289A /* DialTableViewCell.xib */; };
+		248D1CD31B298E6A00A8289A /* contact3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 248D1CD21B298E6A00A8289A /* contact3@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		243D408E1B21ADE700C4A302 /* calllog1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calllog1@2x.png"; sourceTree = "<group>"; };
+		243D40921B21ADF000C4A302 /* dial1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dial1@3x.png"; sourceTree = "<group>"; };
+		243D40941B21ADF500C4A302 /* setting1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting1@3x.png"; sourceTree = "<group>"; };
+		243D40961B21AFDC00C4A302 /* calllog2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calllog2@2x.png"; sourceTree = "<group>"; };
+		243D40981B21B22200C4A302 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		243D40991B21B22200C4A302 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		243D409B1B21B2CD00C4A302 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		245C5D911B21A0C000DA1686 /* 6.5.UI.HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 6.5.UI.HW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		245C5D951B21A0C000DA1686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		245C5D961B21A0C000DA1686 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,11 +54,22 @@
 		245C5D9B1B21A0C000DA1686 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		245C5D9C1B21A0C000DA1686 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		245C5D9F1B21A0C000DA1686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		245C5DA11B21A0C000DA1686 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		245C5DA41B21A0C000DA1686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		245C5DAA1B21A0C000DA1686 /* 6.5.UI.HWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 6.5.UI.HWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		245C5DAF1B21A0C000DA1686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		245C5DB01B21A0C000DA1686 /* __5_UI_HWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __5_UI_HWTests.m; sourceTree = "<group>"; };
+		245C5DC61B21A46100DA1686 /* DialllogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialllogViewController.h; sourceTree = "<group>"; };
+		245C5DC71B21A46100DA1686 /* DialllogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialllogViewController.m; sourceTree = "<group>"; };
+		245C5DC91B21A48200DA1686 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		245C5DCA1B21A48200DA1686 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		245C5DCC1B21A49900DA1686 /* DialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
+		245C5DCD1B21A49900DA1686 /* DialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialViewController.m; sourceTree = "<group>"; };
+		245C5DCF1B21A4A800DA1686 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		245C5DD01B21A4A800DA1686 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		248D1CC91B2986F900A8289A /* DialTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialTableViewCell.h; sourceTree = "<group>"; };
+		248D1CCA1B2986F900A8289A /* DialTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialTableViewCell.m; sourceTree = "<group>"; };
+		248D1CCB1B2986F900A8289A /* DialTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialTableViewCell.xib; sourceTree = "<group>"; };
+		248D1CD21B298E6A00A8289A /* contact3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact3@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +113,14 @@
 			children = (
 				245C5D981B21A0C000DA1686 /* AppDelegate.h */,
 				245C5D991B21A0C000DA1686 /* AppDelegate.m */,
-				245C5D9B1B21A0C000DA1686 /* ViewController.h */,
-				245C5D9C1B21A0C000DA1686 /* ViewController.m */,
+				248D1CC41B2982EB00A8289A /* 通话记录 */,
+				248D1CC61B29830E00A8289A /* 联系人 */,
+				248D1CC71B29837200A8289A /* 拨号 */,
+				248D1CC81B29838900A8289A /* 设置 */,
+				243D409B1B21B2CD00C4A302 /* Images.xcassets */,
 				245C5D9E1B21A0C000DA1686 /* Main.storyboard */,
-				245C5DA11B21A0C000DA1686 /* Images.xcassets */,
 				245C5DA31B21A0C000DA1686 /* LaunchScreen.xib */,
+				245C5DDC1B21AA5100DA1686 /* Icon */,
 				245C5D941B21A0C000DA1686 /* Supporting Files */,
 			);
 			path = 6.5.UI.HW;
@@ -117,6 +150,61 @@
 				245C5DAF1B21A0C000DA1686 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		245C5DDC1B21AA5100DA1686 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				243D40961B21AFDC00C4A302 /* calllog2@2x.png */,
+				243D40921B21ADF000C4A302 /* dial1@3x.png */,
+				248D1CD21B298E6A00A8289A /* contact3@3x.png */,
+				243D40941B21ADF500C4A302 /* setting1@3x.png */,
+				243D408E1B21ADE700C4A302 /* calllog1@2x.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+		248D1CC41B2982EB00A8289A /* 通话记录 */ = {
+			isa = PBXGroup;
+			children = (
+				245C5DC61B21A46100DA1686 /* DialllogViewController.h */,
+				245C5DC71B21A46100DA1686 /* DialllogViewController.m */,
+				248D1CC91B2986F900A8289A /* DialTableViewCell.h */,
+				248D1CCA1B2986F900A8289A /* DialTableViewCell.m */,
+				248D1CCB1B2986F900A8289A /* DialTableViewCell.xib */,
+			);
+			name = "通话记录";
+			sourceTree = "<group>";
+		};
+		248D1CC61B29830E00A8289A /* 联系人 */ = {
+			isa = PBXGroup;
+			children = (
+				245C5DCA1B21A48200DA1686 /* ContactViewController.m */,
+				245C5DC91B21A48200DA1686 /* ContactViewController.h */,
+			);
+			name = "联系人";
+			sourceTree = "<group>";
+		};
+		248D1CC71B29837200A8289A /* 拨号 */ = {
+			isa = PBXGroup;
+			children = (
+				243D40981B21B22200C4A302 /* DetailViewController.h */,
+				243D40991B21B22200C4A302 /* DetailViewController.m */,
+				245C5DCC1B21A49900DA1686 /* DialViewController.h */,
+				245C5DCD1B21A49900DA1686 /* DialViewController.m */,
+			);
+			name = "拨号";
+			sourceTree = "<group>";
+		};
+		248D1CC81B29838900A8289A /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				245C5D9C1B21A0C000DA1686 /* ViewController.m */,
+				245C5D9B1B21A0C000DA1686 /* ViewController.h */,
+				245C5DD01B21A4A800DA1686 /* SettingViewController.m */,
+				245C5DCF1B21A4A800DA1686 /* SettingViewController.h */,
+			);
+			name = "设置";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +287,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243D40971B21AFDC00C4A302 /* calllog2@2x.png in Resources */,
+				243D40951B21ADF500C4A302 /* setting1@3x.png in Resources */,
+				243D409C1B21B2CD00C4A302 /* Images.xcassets in Resources */,
+				248D1CCD1B2986F900A8289A /* DialTableViewCell.xib in Resources */,
 				245C5DA01B21A0C000DA1686 /* Main.storyboard in Resources */,
 				245C5DA51B21A0C000DA1686 /* LaunchScreen.xib in Resources */,
-				245C5DA21B21A0C000DA1686 /* Images.xcassets in Resources */,
+				243D408F1B21ADE700C4A302 /* calllog1@2x.png in Resources */,
+				243D40931B21ADF000C4A302 /* dial1@3x.png in Resources */,
+				248D1CD31B298E6A00A8289A /* contact3@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245C5DCE1B21A49900DA1686 /* DialViewController.m in Sources */,
+				245C5DCB1B21A48200DA1686 /* ContactViewController.m in Sources */,
 				245C5D9D1B21A0C000DA1686 /* ViewController.m in Sources */,
+				243D409A1B21B22200C4A302 /* DetailViewController.m in Sources */,
+				245C5DD11B21A4A800DA1686 /* SettingViewController.m in Sources */,
 				245C5D9A1B21A0C000DA1686 /* AppDelegate.m in Sources */,
+				245C5DC81B21A46100DA1686 /* DialllogViewController.m in Sources */,
 				245C5D971B21A0C000DA1686 /* main.m in Sources */,
+				248D1CCC1B2986F900A8289A /* DialTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +518,7 @@
 				245C5DB61B21A0C000DA1686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		245C5DB71B21A0C000DA1686 /* Build configuration list for PBXNativeTarget "6.5.UI.HWTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +527,7 @@
 				245C5DB91B21A0C000DA1686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
