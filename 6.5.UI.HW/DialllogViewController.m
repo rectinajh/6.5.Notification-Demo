@@ -41,7 +41,6 @@ static NSString *identifier = @"CELL";
     
     //接收通知消息
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(receiveNews:) name:@"receiveNews" object:nil];
-    
 
 }
 - (void)initlializeUserInterface
@@ -57,6 +56,8 @@ static NSString *identifier = @"CELL";
     
     //进行xib文件注册                             //必须和xib文件名一致
     [self.tableView registerNib:[UINib nibWithNibName:@"DialTableViewCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:identifier];
+    
+    
 
 }
 

@@ -107,15 +107,16 @@
 
 - (void)handleOverButtonEvent:(UIButton *)sender
 {
-    //将电话号码添加到字典
-    [self.date setObject:self.phoneNumber forKey:@"number"];
-    //将通话时间添加到字典
-    [self.date setObject:self.time forKey:@"time"];
-    
-    //创建通知
-    NSNotification  *notification = [NSNotification notificationWithName:@"receiveNews" object:nil userInfo:self.date];
-    //发出通知
-    [[NSNotificationCenter defaultCenter] postNotification:notification];
+//    //将电话号码添加到字典
+//    [self.date setObject:self.phoneNumber forKey:@"number"];
+//    //将通话时间添加到字典
+//    [self.date setObject:self.time forKey:@"time"];
+//    
+//    
+//    //创建通知
+//    NSNotification  *notification = [NSNotification notificationWithName:@"receiveNews" object:nil userInfo:self.date];
+//    //发出通知
+//    [[NSNotificationCenter defaultCenter] postNotification:notification];
     //    [self stopTimer];
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>9565AA99-2C64-466A-80F3-2D4B2D394698</string>
 	<key>IDESourceControlProjectName</key>
-	<string>6.5.UI.HW</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C2AE4A61DC710C1F4C9ED447CF670877DD3B3A48</key>
 		<string>https://github.com/rectinajh/6.5.UI.HW.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>6.5.UI.HW.xcodeproj</string>
+	<string>6.5.UI.HW.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C2AE4A61DC710C1F4C9ED447CF670877DD3B3A48</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>C2AE4A61DC710C1F4C9ED447CF670877DD3B3A48</string>
 			<key>IDESourceControlWCCName</key>
-			<string>6.5.UI.HW</string>
+			<string>6.11.UI.HW</string>
 		</dict>
 	</array>
 </dict>
