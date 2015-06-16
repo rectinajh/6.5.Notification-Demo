@@ -22,7 +22,7 @@
 @end
 
 //重建重用标识符
-static NSString *identifier = @"CELL";
+static NSString *identifier = @"Cell";
 
 @implementation DialllogViewController
 
@@ -63,9 +63,10 @@ static NSString *identifier = @"CELL";
 
 //响应通知事件
 - (void)receiveNews:(NSNotification *)notification {
+    
+    [self.numberArray addObject:[notification.object objectForKey:@"number"]];
+    [self.timeArray addObject:[notification.object objectForKey:@"time"]];
 
-    [self.numberArray addObject:notification.userInfo[@"number"]];
-    [self.timeArray addObject:notification.userInfo[@"time"]];
     [self.tableView reloadData];
 }
 

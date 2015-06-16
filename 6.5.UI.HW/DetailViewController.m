@@ -47,6 +47,7 @@
 
 - (void)initializeUserInterface
 {
+    self.date = [NSMutableDictionary dictionary];
     self.view.backgroundColor = [UIColor whiteColor];
     
     //显示电话号
@@ -107,17 +108,17 @@
 
 - (void)handleOverButtonEvent:(UIButton *)sender
 {
-//    //将电话号码添加到字典
-//    [self.date setObject:self.phoneNumber forKey:@"number"];
-//    //将通话时间添加到字典
-//    [self.date setObject:self.time forKey:@"time"];
-//    
-//    
-//    //创建通知
-//    NSNotification  *notification = [NSNotification notificationWithName:@"receiveNews" object:nil userInfo:self.date];
-//    //发出通知
-//    [[NSNotificationCenter defaultCenter] postNotification:notification];
-    //    [self stopTimer];
+    //将电话号码添加到字典
+    [self.date setObject:self.phoneNumber forKey:@"number"];
+    //将通话时间添加到字典
+    [self.date setObject:self.time forKey:@"time"];
+    
+    
+    //创建通知
+    NSNotification  *notification = [NSNotification notificationWithName:@"receiveNews" object:self.date];
+    //发出通知
+    [[NSNotificationCenter defaultCenter] postNotification:notification];
+        [self stopTimer];
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
@@ -158,6 +159,7 @@
     date = [date dateByAddingTimeInterval:1];
     // 最终转换成文本即可
     showTimeLabel.text = [dateFormatter stringFromDate:date];
+    self.time = showTimeLabel.text;
 }
 
 
