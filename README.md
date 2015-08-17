@@ -1,3 +1,3 @@
 # 6.5.Notification-Demo
 
-![Markdown preferences pane](http://d.pr/i/RQEi+)
+![Markdown preferences pane](https://raw.githubusercontent.com/rectinajh/6.5.Notification-Demo/master/hw6.11.gif)
